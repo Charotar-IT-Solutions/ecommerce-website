@@ -1,2 +1,2 @@
 # ecommerce-website
-Project: E-commerse website
+Project: Whale Watch Maker website
