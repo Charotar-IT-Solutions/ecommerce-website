@@ -164,6 +164,13 @@ ul li {
 #navbar-example3 ul li {
   border-bottom: 1px solid goldenrod;
 }
+
+.navbar-brand .logo{
+  width: 200px;
+}
+.video-slider video{
+  width: 100%;
+}
 hr {
   border-top-width: 2px;
 }
@@ -1432,6 +1439,23 @@ header.header-transparent nav .right-menu li a.nav-link i {
     margin-bottom: 0;
     padding: 15px 20px 17px;
     position: relative;
+  }
+
+  .social-media{
+    display: none;
+  }
+  .right-menu li:first-child{
+    display: none;
+  }
+
+  .navbar-brand .logo{
+    width: 120px;
+  }
+  nav.navbar.navbar-dark.bg-dark.bg-primary-color.fixed-top {
+    padding: 0;
+  }
+  .padding-top{
+    padding-top: 57px;
   }
 }
 @media only screen and (max-width: 575px) {
