@@ -482,6 +482,13 @@ header.header-transparent nav .right-menu li a.nav-link i {
     font-size: 36px;
 }
 
+.nav-background {
+  background-image: url("../images/navbar.png");
+  background-size: cover;
+
+  /* Workaround for some mobile browsers */
+/*  min-height: 100%;*/
+}
 
 .eOQcGc {
     position: relative;
