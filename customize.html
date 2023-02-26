@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en">
-
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>whalewatchmaker</title>
+    <title>whalewatchmaker-customize</title>
     <meta name="robots" content="noindex, follow" />
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -27,8 +26,7 @@
     <link rel="stylesheet" href="assets/css/plugins/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/plugins/fancybox.min.css">
     <link rel="stylesheet" href="assets/css/plugins/nice-select.css">
-    <link rel="stylesheet" href="assets/css/plugins/LYEBjmB.css">
-    <link rel="stylesheet" href="assets/css/plugins/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/plugins/range-slider.css">
 
     <!-- Style CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
@@ -39,9 +37,8 @@
 
     <!--== Wrapper Start ==-->
     <div class="wrapper">
-
         <!--== Start Header Wrapper ==-->
-         <header class="header-area header-transparent">
+        <header class="header-area header-transparent">
             <nav class="navbar navbar-dark bg-dark bg-primary-color fixed-top nav-background">
               <div class="container-fluid">
                  <a class="navbar-brand" href="index.html" style="color: #daa520;"><img class="logo" src="assets/images/logo/logo-2.png" alt="logo"><span class="wwm-text">WhaleWatchMaker</span></a>
@@ -381,83 +378,443 @@
               </div>
             </nav>
         </header>
-        <!--== End Header Wrapper ==-->
-
+        <!--== Start Header Wrapper ==-->
         <main class="main-content">
 
             <!--== Start Page Header Area Wrapper ==-->
-            <section class="page-header-area" data-bg-color="#F1FAEE">
+            <section class="page-header-area" data-bg-color="#141a28">
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-8">
                             <div class="page-header-content">
                                 <ol class="breadcrumb">
                                     <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                                    <li class="breadcrumb-item active" aria-current="page">Account</li>
+                                    <li class="breadcrumb-item active" aria-current="page">Customize</li>
                                 </ol>
-                                <h2 class="page-header-title">My Account</h2>
+                                <h2 class="page-header-title">All Customize</h2>
                             </div>
                         </div>
-                        <div class="col-sm-4 d-sm-flex justify-content-end align-items-end">
-                            <h5 class="showing-pagination-results">Register</h5>
-                        </div>
+                        <!-- <div class="col-sm-4 d-sm-flex justify-content-end align-items-end">
+                            <h5 class="showing-pagination-results">Showing 09 Results</h5>
+                        </div> -->
                     </div>
                 </div>
             </section>
             <!--== End Page Header Area Wrapper ==-->
 
-            <!--== Start Login Wrapper ==-->
-            <section class="login-register-area section-space">
+            <!--== Start Product Categories Area Wrapper ==-->
+            <section class="product-customize-area section-top-space section-bottom-space">
                 <div class="container">
-                    <div class="row justify-content-center">
-                        
-                        <div class="col-md-7">
-                            <div class="login-register-content login-register-pl login-register-pr card">
-                                <div class="login-register-title mb-30 login-register-style">
-                                    <h2>Register</h2>
-                                    <p style="width: 100%; color: #fff; margin-bottom: 0;">Create new account today to reap the benefits of a personalized shopping experience. </p>
-                                </div>
-                                <div class="login-register-style">
-                                    <form action="#" method="post">
-                                        <div class="login-register-input">
-                                            <input type="text" name="first-name" placeholder="First Name">
+                    <div class="row mb-n8">
+                        <div class="col-12 col-md-12 col-lg-12 mb-8">
+                            <!--== Start Product Categories Item ==-->
+                            <div class="customize-tabs">
+                                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                  <li class="nav-item" role="presentation">
+                                    <button class="nav-link active" id="start-tab" data-bs-toggle="tab" data-bs-target="#start-tab-pane" type="button" role="tab" aria-controls="start-tab-pane" aria-selected="true">START <i class="fa fa-angle-double-right" aria-hidden="true"></i></button>
+                                  </li>
+                                  <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="model-tab" data-bs-toggle="tab" data-bs-target="#model-tab-pane" type="button" role="tab" aria-controls="model-tab-pane" aria-selected="false">MODEL <i class="fa fa-angle-double-right" aria-hidden="true"></i></button>
+                                  </li>
+                                  <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="housing-tab" data-bs-toggle="tab" data-bs-target="#housing-tab-pane" type="button" role="tab" aria-controls="housing-tab-pane" aria-selected="false">HOUSING <i class="fa fa-angle-double-right" aria-hidden="true"></i></button>
+                                  </li>
+                                  <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="dial-tab" data-bs-toggle="tab" data-bs-target="#dial-tab-pane" type="button" role="tab" aria-controls="dial-tab-pane" aria-selected="false">DIAL <i class="fa fa-angle-double-right" aria-hidden="true"></i></button>
+                                  </li>
+                                  <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="hands-tab" data-bs-toggle="tab" data-bs-target="#hands-tab-pane" type="button" role="tab" aria-controls="hands-tab-pane" aria-selected="false">HANDS <i class="fa fa-angle-double-right" aria-hidden="true"></i></button>
+                                  </li>
+                                  <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="text-tab" data-bs-toggle="tab" data-bs-target="#text-tab-pane" type="button" role="tab" aria-controls="text-tab-pane" aria-selected="false">TEXT <i class="fa fa-angle-double-right" aria-hidden="true"></i></button>
+                                  </li>
+                                </ul>
+                                <div class="tab-content card" id="myTabContent">
+                                  <div class="tab-pane fade show active" id="start-tab-pane" role="tabpanel" aria-labelledby="start-tab" tabindex="0">
+                                    <div class="row">
+                                      <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                                        <div class="c-title pt-5">
+                                            <h2>YOUR INDIVIDUAL BLAKEN</h2>
                                         </div>
-                                        <div class="login-register-input">
-                                            <input type="text" name="Last-name" placeholder="Last Name">
+                                        <div class="cust-description py-5">
+                                            <p>You can use our configurator to try out many ideas on exemplary models. Choose your favorite surface, your favorite colors for the dial, indices, hands and luminous material. You can also place an individual text on the dial and on the case back. You can then save your design, share it with friends or discuss further customizations with us.</p>
                                         </div>
-                                        <div class="login-register-input">
-                                            <input type="text" name="user-name" placeholder="Username">
+                                        <div class="design-now-btn mt-5">
+                                            <button class="btn btn-primary" id="model-tab" data-bs-toggle="tab" data-bs-target="#model-tab-pane" role="tab" aria-controls="model-tab-pane" aria-selected="false"><span class="me-3">Design Now</span>  <i class="fa fa-arrow-right" aria-hidden="true"></i></button>
                                         </div>
-                                        <div class="login-register-input">
-                                            <input type="text" name="user-name" placeholder="E-mail address">
-                                        </div>
-                                        <div class="login-register-input">
-                                            <input type="password" name="user-password" placeholder="Password">
-                                        </div>
-                                        <div class="login-register-paragraph">
-                                            <p>Your personal data will be used to support your experience throughout this website, to manage access to your account, and for other purposes described in our <a href="#">privacy policy.</a></p>
-                                        </div>
-                                        <div class="btn-register">
-                                            <a class="btn-register-now" href="account.html">Register</a>
-                                        </div>
-                                    </form>
-                                    <div class="register-benefits">
-                                        <h3>Sign up today and you will be able to :</h3>
-                                        <p>The Loke Buyer Protection has you covered from click to delivery. Sign up <br>or sign in and you will be able to:</p>
-                                        <ul>
-                                            <li><i class="fa fa-check-circle-o"></i> Speed your way through checkout</li>
-                                            <li><i class="fa fa-check-circle-o"></i> Track your orders easily</li>
-                                            <li><i class="fa fa-check-circle-o"></i> Keep a record of all your purchases</li>
-                                        </ul>
+                                      </div>
+                                      <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                                          <div class="customizations-watches">
+                                              <img src="assets/images/shop/pt/pt7.png" alt="customize">
+                                              <img src="assets/images/shop/pt/pt2.png" alt="customize">
+                                              <img src="assets/images/shop/pt/pt3.png" alt="customize">
+                                          </div>
+                                          <div class="customizations-watches">
+                                              <img src="assets/images/shop/pt/pt4.png" alt="customize">
+                                              <img src="assets/images/shop/pt/pt5.png" alt="customize">
+                                              <img src="assets/images/shop/pt/pt6.png" alt="customize">
+                                          </div>
+                                      </div>
                                     </div>
+                                  </div>
+                                  <div class="tab-pane fade" id="model-tab-pane" role="tabpanel" aria-labelledby="model-tab" tabindex="0">
+                                    <div class="row">
+                                      <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                                        <div class="c-title py-5">
+                                            <h2>CHOOSE YOUR MODEL</h2>
+                                        </div>
+                                        <div class="accordion accordion-customize" id="accordionPanelsStayOpenExample">
+                                          <div class="accordion-item">
+                                            <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                                              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                                                DAYTONA
+                                              </button>
+                                            </h2>
+                                            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                                              <div class="accordion-body">
+                                                <img src="assets/images/shop/pt/pt3.png" alt="pt3">
+                                              </div>
+                                            </div>
+                                          </div>
+                                          <div class="accordion-item">
+                                            <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                                                SUBMARINE
+                                              </button>
+                                            </h2>
+                                            <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                                              <div class="accordion-body">
+                                                <img src="assets/images/shop/pt/cust1.png" alt="pt3">
+                                                <img src="assets/images/shop/pt/cust2.png" alt="pt3">
+                                                <img src="assets/images/shop/pt/cust1.png" alt="pt3">
+                                              </div>
+                                            </div>
+                                          </div>
+                                          <div class="accordion-item">
+                                            <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                                                SEADWELLER
+                                              </button>
+                                            </h2>
+                                            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                                              <div class="accordion-body">
+                                                <img src="assets/images/shop/pt/cust2.png" alt="pt3">
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 front-back">
+                                        <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
+                                          <li class="nav-item" role="presentation">
+                                            <button class="nav-link active" id="pills-front-tab" data-bs-toggle="pill" data-bs-target="#pills-front" type="redio" role="tab" aria-controls="pills-front" aria-selected="true">FRONT</button>
+                                          </li>
+                                          <li class="nav-item" role="presentation">
+                                            <button class="nav-link" id="pills-back-tab" data-bs-toggle="pill" data-bs-target="#pills-back" type="button" role="tab" aria-controls="pills-back" aria-selected="false">BACK</button>
+                                          </li>
+                                        </ul>
+                                        <div class="tab-content" id="pills-tabContent">
+                                          <div class="tab-pane fade show active" id="pills-front" role="tabpanel" aria-labelledby="pills-front-tab" tabindex="0">
+                                            <div class="customizations-model-watches text-center">
+                                              <img src="assets/images/shop/pt/pt7.png" alt="customize">
+                                            </div>
+                                          </div>
+                                          <div class="tab-pane fade" id="pills-back" role="tabpanel" aria-labelledby="pills-back-tab" tabindex="0">
+                                            <div class="customizations-model-watches text-center">
+                                              <img src="assets/images/shop/pt/pt7.png" alt="customize">
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="tab-pane fade" id="housing-tab-pane" role="tabpanel" aria-labelledby="housing-tab" tabindex="0">Housing</div>
+                                  <div class="tab-pane fade" id="dial-tab-pane" role="tabpanel" aria-labelledby="dial-tab" tabindex="0">Dail</div>
+                                  <div class="tab-pane fade" id="hands-tab-pane" role="tabpanel" aria-labelledby="hands-tab" tabindex="0">HANDS</div>
+                                  <div class="tab-pane fade" id="text-tab-pane" role="tabpanel" aria-labelledby="text-tab" tabindex="0">TEXT</div>
                                 </div>
                             </div>
+                            <!--== End Product Categories Item ==-->
+                        </div>
+                    </div>
+                    <div class="row mt-5">
+                      <div class="col-md-12">
+                        <div class="card c-contact">
+                          <p>You have questions, special requirements which can not be mapped using the configurator or want to discuss your individualization with us directly? No problem. Call us or send us an email. We will get back to you soon.</p>
+                          <ul class="nav">
+                            <li class="nav-item">
+                              <a class="nav-link"><i class="fa fa-phone" aria-hidden="true"></i> <span class="ms-2">+94 (0)2373-77080-0</span> </a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link"><i class="fa fa-envelope" aria-hidden="true"></i> <span class="ms-2">sales@whalewatchmaker.com</span> </a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </section>
+            <!--== End Product Categories Area Wrapper ==-->
+            <!--== Start Product Area Wrapper ==-->
+            <section class="product-area section-bottom-space">
+                <div class="container">
+                    <div class="row mb-n6">
+                        <div class="col-sm-6 col-lg-4 mb-6">
+                            <!--== Start Product Item ==-->
+                            <div class="product-item">
+                                <a class="product-thumb" href="shop-single-product.html">
+                                    <img src="assets/images/shop/pt/pt1.png" width="300" height="286" alt="Image-HasTech">
+                                </a>
+                                <span class="badges">New</span>
+                                <div class="product-action">
+                                    <button type="button" class="product-action-btn action-btn-quick-view" data-bs-toggle="modal" data-bs-target="#action-QuickViewModal">
+                                        <i class="fa fa-expand"></i>
+                                    </button>
+                                    <button type="button" class="product-action-btn action-btn-cart" data-bs-toggle="modal" data-bs-target="#action-CartAddModal">
+                                        <i class="fa fa-shopping-cart"></i>
+                                    </button>
+                                    <button type="button" class="product-action-btn action-btn-compare" data-bs-toggle="modal" data-bs-target="#action-CompareModal">
+                                        <i class="fa fa-exchange"></i>
+                                    </button>
+                                </div>
+                                <div class="product-info">
+                                    <h4 class="title"><a href="shop-single-product.html">Casual Prince</a></h4>
+                                    <div class="price">$650.00 <span class="price-old">$650.00</span></div>
+                                    <button type="button" class="info-btn-wishlist" data-bs-toggle="modal" data-bs-target="#action-WishlistModal">
+                                        <i class="fa fa-heart-o"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <!--== End prPduct Item ==-->
+                        </div>
+                        <div class="col-sm-6 col-lg-4 mb-6">
+                            <!--== Start Product Item ==-->
+                            <div class="product-item">
+                                <a class="product-thumb" href="shop-single-product.html">
+                                    <img src="assets/images/shop/pt/pt2.png" width="300" height="286" alt="Image-HasTech">
+                                </a>
+                                <span class="badges">New</span>
+                                <div class="product-action">
+                                    <button type="button" class="product-action-btn action-btn-quick-view" data-bs-toggle="modal" data-bs-target="#action-QuickViewModal">
+                                        <i class="fa fa-expand"></i>
+                                    </button>
+                                    <button type="button" class="product-action-btn action-btn-cart" data-bs-toggle="modal" data-bs-target="#action-CartAddModal">
+                                        <i class="fa fa-shopping-cart"></i>
+                                    </button>
+                                    <button type="button" class="product-action-btn action-btn-compare" data-bs-toggle="modal" data-bs-target="#action-CompareModal">
+                                        <i class="fa fa-exchange"></i>
+                                    </button>
+                                </div>
+                                <div class="product-info">
+                                    <h4 class="title"><a href="shop-single-product.html">Fit Wool Suit</a></h4>
+                                    <div class="price">$650.00 <span class="price-old">$650.00</span></div>
+                                    <button type="button" class="info-btn-wishlist" data-bs-toggle="modal" data-bs-target="#action-WishlistModal">
+                                        <i class="fa fa-heart-o"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <!--== End prPduct Item ==-->
+                        </div>
+                        <div class="col-sm-6 col-lg-4 mb-6">
+                            <!--== Start Product Item ==-->
+                            <div class="product-item">
+                                <a class="product-thumb" href="shop-single-product.html">
+                                    <img src="assets/images/shop/pt/pt3.png" width="300" height="286" alt="Image-HasTech">
+                                </a>
+                                <span class="badges">New</span>
+                                <div class="product-action">
+                                    <button type="button" class="product-action-btn action-btn-quick-view" data-bs-toggle="modal" data-bs-target="#action-QuickViewModal">
+                                        <i class="fa fa-expand"></i>
+                                    </button>
+                                    <button type="button" class="product-action-btn action-btn-cart" data-bs-toggle="modal" data-bs-target="#action-CartAddModal">
+                                        <i class="fa fa-shopping-cart"></i>
+                                    </button>
+                                    <button type="button" class="product-action-btn action-btn-compare" data-bs-toggle="modal" data-bs-target="#action-CompareModal">
+                                        <i class="fa fa-exchange"></i>
+                                    </button>
+                                </div>
+                                <div class="product-info">
+                                    <h4 class="title"><a href="shop-single-product.html">Slightly jackets</a></h4>
+                                    <div class="price">$650.00 <span class="price-old">$650.00</span></div>
+                                    <button type="button" class="info-btn-wishlist" data-bs-toggle="modal" data-bs-target="#action-WishlistModal">
+                                        <i class="fa fa-heart-o"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <!--== End prPduct Item ==-->
+                        </div>
+                        <div class="col-sm-6 col-lg-4 mb-6">
+                            <!--== Start Product Item ==-->
+                            <div class="product-item">
+                                <a class="product-thumb" href="shop-single-product.html">
+                                    <img src="assets/images/shop/pt/pt4.png" width="300" height="286" alt="Image-HasTech">
+                                </a>
+                                <span class="badges">New</span>
+                                <div class="product-action">
+                                    <button type="button" class="product-action-btn action-btn-quick-view" data-bs-toggle="modal" data-bs-target="#action-QuickViewModal">
+                                        <i class="fa fa-expand"></i>
+                                    </button>
+                                    <button type="button" class="product-action-btn action-btn-cart" data-bs-toggle="modal" data-bs-target="#action-CartAddModal">
+                                        <i class="fa fa-shopping-cart"></i>
+                                    </button>
+                                    <button type="button" class="product-action-btn action-btn-compare" data-bs-toggle="modal" data-bs-target="#action-CompareModal">
+                                        <i class="fa fa-exchange"></i>
+                                    </button>
+                                </div>
+                                <div class="product-info">
+                                    <h4 class="title"><a href="shop-single-product.html">Red Perspiciatis</a></h4>
+                                    <div class="price">$650.00 <span class="price-old">$650.00</span></div>
+                                    <button type="button" class="info-btn-wishlist" data-bs-toggle="modal" data-bs-target="#action-WishlistModal">
+                                        <i class="fa fa-heart-o"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <!--== End prPduct Item ==-->
+                        </div>
+                        <div class="col-sm-6 col-lg-4 mb-6">
+                            <!--== Start Product Item ==-->
+                            <div class="product-item">
+                                <a class="product-thumb" href="shop-single-product.html">
+                                    <img src="assets/images/shop/pt/pt6.png" width="300" height="286" alt="Image-HasTech">
+                                </a>
+                                <span class="badges">New</span>
+                                <div class="product-action">
+                                    <button type="button" class="product-action-btn action-btn-quick-view" data-bs-toggle="modal" data-bs-target="#action-QuickViewModal">
+                                        <i class="fa fa-expand"></i>
+                                    </button>
+                                    <button type="button" class="product-action-btn action-btn-cart" data-bs-toggle="modal" data-bs-target="#action-CartAddModal">
+                                        <i class="fa fa-shopping-cart"></i>
+                                    </button>
+                                    <button type="button" class="product-action-btn action-btn-compare" data-bs-toggle="modal" data-bs-target="#action-CompareModal">
+                                        <i class="fa fa-exchange"></i>
+                                    </button>
+                                </div>
+                                <div class="product-info">
+                                    <h4 class="title"><a href="shop-single-product.html">Style Modern Dress</a></h4>
+                                    <div class="price">$650.00 <span class="price-old">$650.00</span></div>
+                                    <button type="button" class="info-btn-wishlist" data-bs-toggle="modal" data-bs-target="#action-WishlistModal">
+                                        <i class="fa fa-heart-o"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <!--== End prPduct Item ==-->
+                        </div>
+                        <div class="col-sm-6 col-lg-4 mb-6">
+                            <!--== Start Product Item ==-->
+                            <div class="product-item">
+                                <a class="product-thumb" href="shop-single-product.html">
+                                    <img src="assets/images/shop/pt/pt3.png" width="300" height="286" alt="Image-HasTech">
+                                </a>
+                                <span class="badges">New</span>
+                                <div class="product-action">
+                                    <button type="button" class="product-action-btn action-btn-quick-view" data-bs-toggle="modal" data-bs-target="#action-QuickViewModal">
+                                        <i class="fa fa-expand"></i>
+                                    </button>
+                                    <button type="button" class="product-action-btn action-btn-cart" data-bs-toggle="modal" data-bs-target="#action-CartAddModal">
+                                        <i class="fa fa-shopping-cart"></i>
+                                    </button>
+                                    <button type="button" class="product-action-btn action-btn-compare" data-bs-toggle="modal" data-bs-target="#action-CompareModal">
+                                        <i class="fa fa-exchange"></i>
+                                    </button>
+                                </div>
+                                <div class="product-info">
+                                    <h4 class="title"><a href="shop-single-product.html">Star Women pants</a></h4>
+                                    <div class="price">$650.00 <span class="price-old">$650.00</span></div>
+                                    <button type="button" class="info-btn-wishlist" data-bs-toggle="modal" data-bs-target="#action-WishlistModal">
+                                        <i class="fa fa-heart-o"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <!--== End prPduct Item ==-->
+                        </div>
+                        <div class="col-sm-6 col-lg-4 mb-6">
+                            <!--== Start Product Item ==-->
+                            <div class="product-item">
+                                <a class="product-thumb" href="shop-single-product.html">
+                                    <img src="assets/images/shop/pt/pt3.png" width="300" height="286" alt="Image-HasTech">
+                                </a>
+                                <span class="badges">New</span>
+                                <div class="product-action">
+                                    <button type="button" class="product-action-btn action-btn-quick-view" data-bs-toggle="modal" data-bs-target="#action-QuickViewModal">
+                                        <i class="fa fa-expand"></i>
+                                    </button>
+                                    <button type="button" class="product-action-btn action-btn-cart" data-bs-toggle="modal" data-bs-target="#action-CartAddModal">
+                                        <i class="fa fa-shopping-cart"></i>
+                                    </button>
+                                    <button type="button" class="product-action-btn action-btn-compare" data-bs-toggle="modal" data-bs-target="#action-CompareModal">
+                                        <i class="fa fa-exchange"></i>
+                                    </button>
+                                </div>
+                                <div class="product-info">
+                                    <h4 class="title"><a href="shop-single-product.html">Flower Print dress</a></h4>
+                                    <div class="price">$650.00 <span class="price-old">$650.00</span></div>
+                                    <button type="button" class="info-btn-wishlist" data-bs-toggle="modal" data-bs-target="#action-WishlistModal">
+                                        <i class="fa fa-heart-o"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <!--== End prPduct Item ==-->
+                        </div>
+                        <div class="col-sm-6 col-lg-4 mb-6">
+                            <!--== Start Product Item ==-->
+                            <div class="product-item">
+                                <a class="product-thumb" href="shop-single-product.html">
+                                    <img src="assets/images/shop/pt/pt3.png" width="300" height="286" alt="Image-HasTech">
+                                </a>
+                                <span class="badges">New</span>
+                                <div class="product-action">
+                                    <button type="button" class="product-action-btn action-btn-quick-view" data-bs-toggle="modal" data-bs-target="#action-QuickViewModal">
+                                        <i class="fa fa-expand"></i>
+                                    </button>
+                                    <button type="button" class="product-action-btn action-btn-cart" data-bs-toggle="modal" data-bs-target="#action-CartAddModal">
+                                        <i class="fa fa-shopping-cart"></i>
+                                    </button>
+                                    <button type="button" class="product-action-btn action-btn-compare" data-bs-toggle="modal" data-bs-target="#action-CompareModal">
+                                        <i class="fa fa-exchange"></i>
+                                    </button>
+                                </div>
+                                <div class="product-info">
+                                    <h4 class="title"><a href="shop-single-product.html">Winter Sprit</a></h4>
+                                    <div class="price">$650.00 <span class="price-old">$650.00</span></div>
+                                    <button type="button" class="info-btn-wishlist" data-bs-toggle="modal" data-bs-target="#action-WishlistModal">
+                                        <i class="fa fa-heart-o"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <!--== End prPduct Item ==-->
+                        </div>
+                        <div class="col-sm-6 col-lg-4 mb-6">
+                            <!--== Start Product Item ==-->
+                            <div class="product-item">
+                                <a class="product-thumb" href="shop-single-product.html">
+                                    <img src="assets/images/shop/pt/pt3.png" width="300" height="286" alt="Image-HasTech">
+                                </a>
+                                <span class="badges">New</span>
+                                <div class="product-action">
+                                    <button type="button" class="product-action-btn action-btn-quick-view" data-bs-toggle="modal" data-bs-target="#action-QuickViewModal">
+                                        <i class="fa fa-expand"></i>
+                                    </button>
+                                    <button type="button" class="product-action-btn action-btn-cart" data-bs-toggle="modal" data-bs-target="#action-CartAddModal">
+                                        <i class="fa fa-shopping-cart"></i>
+                                    </button>
+                                    <button type="button" class="product-action-btn action-btn-compare" data-bs-toggle="modal" data-bs-target="#action-CompareModal">
+                                        <i class="fa fa-exchange"></i>
+                                    </button>
+                                </div>
+                                <div class="product-info">
+                                    <h4 class="title"><a href="shop-single-product.html">Slightly Hoody</a></h4>
+                                    <div class="price">$650.00 <span class="price-old">$650.00</span></div>
+                                    <button type="button" class="info-btn-wishlist" data-bs-toggle="modal" data-bs-target="#action-WishlistModal">
+                                        <i class="fa fa-heart-o"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <!--== End prPduct Item ==-->
                         </div>
                     </div>
                 </div>
             </section>
-            <!--== End Login Wrapper ==-->
-
+            <!--== End Product Area Wrapper ==-->
             <!--== Start News Letter Area Wrapper ==-->
              <section class="news-letter-area section-bottom-space">
                 <div class="container">
@@ -553,7 +910,7 @@
             <div class="footer-bottom">
                 <div class="container pt-0 pb-0">
                     <div class="footer-bottom-content">
-                        <a href="shop.html"><img src="assets/images/shop/payment.png" alt="Image-HasTech"></a>
+                        <a href="products.html"><img src="assets/images/shop/payment.png" alt="Image-HasTech"></a>
                         <p class="copyright">© 2021 WWM. Made with <i class="fa fa-heart"></i> by <a target="_blank" href="#">Charotar IT Solutions.</a></p>
                     </div>
                 </div>
@@ -577,20 +934,20 @@
                                     <div class="single-product-slider">
                                         <div class="single-product-thumb">
                                             <div class="swiper single-product-quick-view-slider">
-                                                <div class="swiper-wrapper">
+                                                 <div class="swiper-wrapper">
                                                     <div class="swiper-slide">
                                                         <div class="thumb-item">
-                                                            <img src="assets/images/shop/details/m1.jpg" alt="Image" width="640" height="710">
+                                                            <img src="assets/images/shop/details/pt2.png" alt="Image" width="640" height="710">
                                                         </div>
                                                     </div>
                                                     <div class="swiper-slide">
                                                         <div class="thumb-item">
-                                                            <img src="assets/images/shop/details/m2.jpg" alt="Image" width="640" height="710">
+                                                            <img src="assets/images/shop/details/pt4.png" alt="Image" width="640" height="710">
                                                         </div>
                                                     </div>
                                                     <div class="swiper-slide">
                                                         <div class="thumb-item">
-                                                            <img src="assets/images/shop/details/m3.jpg" alt="Image" width="640" height="710">
+                                                            <img src="assets/images/shop/details/pt6.png" alt="Image" width="640" height="710">
                                                         </div>
                                                     </div>
                                                 </div>
@@ -603,7 +960,7 @@
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="product-details-content pt-3">
-                                        <h3 class="product-details-title">Casual Women pants</h3>
+                                        <h3 class="product-details-title">Rolex Watch</h3>
                                         <div class="product-details-review">
                                             <div class="product-review-icon">
                                                 <i class="fa fa-star"></i>
@@ -829,7 +1186,7 @@
                                 <ul>
                                     <li><a href="javascript:void(0)">Shop Layout</a>
                                         <ul>
-                                            <li><a href="shop.html">Shop 3 Column</a></li>
+                                            <li><a href="products.html">Shop 3 Column</a></li>
                                             <li><a href="shop-four-columns.html">Shop 4 Column</a></li>
                                             <li><a href="shop-left-sidebar.html">Shop Left Sidebar</a></li>
                                             <li><a href="shop-right-sidebar.html">Shop Right Sidebar</a></li>
@@ -896,9 +1253,13 @@
     <script src="assets/js/plugins/swiper-bundle.min.js"></script>
     <script src="assets/js/plugins/fancybox.min.js"></script>
     <script src="assets/js/plugins/jquery.nice-select.min.js"></script>
+    <script src="assets/js/plugins/range-slider.js"></script>
 
     <!-- Custom Main JS -->
     <script src="assets/js/main.js"></script>
 
 </body>
+
+
+<!-- Mirrored from htmldemo.net/merier/merier/products.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 01 Feb 2023 15:59:14 GMT -->
 </html>

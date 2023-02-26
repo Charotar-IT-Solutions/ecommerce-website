@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en">
-
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>whalewatchmaker</title>
+    <title>whalewatchmaker-Why-Us</title>
     <meta name="robots" content="noindex, follow" />
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -27,11 +26,16 @@
     <link rel="stylesheet" href="assets/css/plugins/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/plugins/fancybox.min.css">
     <link rel="stylesheet" href="assets/css/plugins/nice-select.css">
-    <link rel="stylesheet" href="assets/css/plugins/LYEBjmB.css">
-    <link rel="stylesheet" href="assets/css/plugins/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/plugins/range-slider.css">
 
     <!-- Style CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
+
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.0/themes/base/jquery-ui.css">
+    <script src="//code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="//code.jquery.com/ui/1.13.0/jquery-ui.min.js"></script>
+
 
 </head>
 
@@ -39,9 +43,8 @@
 
     <!--== Wrapper Start ==-->
     <div class="wrapper">
-
         <!--== Start Header Wrapper ==-->
-         <header class="header-area header-transparent">
+        <header class="header-area header-transparent">
             <nav class="navbar navbar-dark bg-dark bg-primary-color fixed-top nav-background">
               <div class="container-fluid">
                  <a class="navbar-brand" href="index.html" style="color: #daa520;"><img class="logo" src="assets/images/logo/logo-2.png" alt="logo"><span class="wwm-text">WhaleWatchMaker</span></a>
@@ -381,83 +384,91 @@
               </div>
             </nav>
         </header>
-        <!--== End Header Wrapper ==-->
-
+        <!--== Start Header Wrapper ==-->
         <main class="main-content">
 
             <!--== Start Page Header Area Wrapper ==-->
-            <section class="page-header-area" data-bg-color="#F1FAEE">
+            <section class="page-header-area" data-bg-color="#141a28">
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-8">
                             <div class="page-header-content">
                                 <ol class="breadcrumb">
                                     <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                                    <li class="breadcrumb-item active" aria-current="page">Account</li>
+                                    <li class="breadcrumb-item active" aria-current="page">Why-US</li>
                                 </ol>
-                                <h2 class="page-header-title">My Account</h2>
+                                <h2 class="page-header-title">Why-US</h2>
                             </div>
                         </div>
-                        <div class="col-sm-4 d-sm-flex justify-content-end align-items-end">
-                            <h5 class="showing-pagination-results">Register</h5>
-                        </div>
+                        <!-- <div class="col-sm-4 d-sm-flex justify-content-end align-items-end">
+                            <h5 class="showing-pagination-results">Showing 09 Results</h5>
+                        </div> -->
                     </div>
                 </div>
             </section>
             <!--== End Page Header Area Wrapper ==-->
 
-            <!--== Start Login Wrapper ==-->
-            <section class="login-register-area section-space">
+            <!--== Start Product Categories Area Wrapper ==-->
+            <section class="why-us-area section-top-space section-bottom-space">
                 <div class="container">
-                    <div class="row justify-content-center">
-                        
-                        <div class="col-md-7">
-                            <div class="login-register-content login-register-pl login-register-pr card">
-                                <div class="login-register-title mb-30 login-register-style">
-                                    <h2>Register</h2>
-                                    <p style="width: 100%; color: #fff; margin-bottom: 0;">Create new account today to reap the benefits of a personalized shopping experience. </p>
-                                </div>
-                                <div class="login-register-style">
-                                    <form action="#" method="post">
-                                        <div class="login-register-input">
-                                            <input type="text" name="first-name" placeholder="First Name">
-                                        </div>
-                                        <div class="login-register-input">
-                                            <input type="text" name="Last-name" placeholder="Last Name">
-                                        </div>
-                                        <div class="login-register-input">
-                                            <input type="text" name="user-name" placeholder="Username">
-                                        </div>
-                                        <div class="login-register-input">
-                                            <input type="text" name="user-name" placeholder="E-mail address">
-                                        </div>
-                                        <div class="login-register-input">
-                                            <input type="password" name="user-password" placeholder="Password">
-                                        </div>
-                                        <div class="login-register-paragraph">
-                                            <p>Your personal data will be used to support your experience throughout this website, to manage access to your account, and for other purposes described in our <a href="#">privacy policy.</a></p>
-                                        </div>
-                                        <div class="btn-register">
-                                            <a class="btn-register-now" href="account.html">Register</a>
-                                        </div>
-                                    </form>
-                                    <div class="register-benefits">
-                                        <h3>Sign up today and you will be able to :</h3>
-                                        <p>The Loke Buyer Protection has you covered from click to delivery. Sign up <br>or sign in and you will be able to:</p>
-                                        <ul>
-                                            <li><i class="fa fa-check-circle-o"></i> Speed your way through checkout</li>
-                                            <li><i class="fa fa-check-circle-o"></i> Track your orders easily</li>
-                                            <li><i class="fa fa-check-circle-o"></i> Keep a record of all your purchases</li>
-                                        </ul>
+                    <div class="row mb-n8">
+                        <div id="tabs">
+                          <ul>
+                            <li><a href="#tab-1">Tab 1</a></li>
+                            <li><a href="#tab-2">Tab 2</a></li>
+                            <li><a href="#tab-3">Tab 3</a></li>
+                          </ul>
+                          <div id="tab-1">
+                            <p>Content 1</p>
+                          </div>
+                          <div id="tab-2">
+                            <p>Content 2</p>
+                          </div>
+                          <div id="tab-3">
+                            <p>Content 3</p>
+                          </div>
+                        </div>
+
+                        <div class="col-12 col-md-12 col-lg-12 mb-8">
+                            <ol class="list-group list-group-numbered">
+                                <li class="list-group-item d-flex justify-content-between align-items-start">
+                                    <div class="ms-2 me-auto">
+                                      <div class="fw-bold">Polygon is a decentralized?</div>
+                                      <div class="why-us-ans">
+                                        <p>Polygon is a decentralized, Ethereum scaling platform that aims to provide Ethereum-based projects with increased flexibility. Polygon is a decentralized, Ethereum scaling platform that aims to provide Ethereum-based projects with increased flexibility</p>
+                                      </div>
                                     </div>
-                                </div>
-                            </div>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-start">
+                                    <div class="ms-2 me-auto">
+                                      <div class="fw-bold">Polygon is a decentralized?</div>
+                                      <div class="why-us-ans">
+                                        <p>Polygon is a decentralized, Ethereum scaling platform that aims to provide Ethereum-based projects with increased flexibility. Polygon is a decentralized, Ethereum scaling platform that aims to provide Ethereum-based projects with increased flexibility</p>
+                                      </div>
+                                    </div>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-start">
+                                    <div class="ms-2 me-auto">
+                                      <div class="fw-bold">Polygon is a decentralized?</div>
+                                      <div class="why-us-ans">
+                                        <p>Polygon is a decentralized, Ethereum scaling platform that aims to provide Ethereum-based projects with increased flexibility. Polygon is a decentralized, Ethereum scaling platform that aims to provide Ethereum-based projects with increased flexibility</p>
+                                      </div>
+                                    </div>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-start">
+                                    <div class="ms-2 me-auto">
+                                      <div class="fw-bold">Polygon is a decentralized?</div>
+                                      <div class="why-us-ans">
+                                        <p>Polygon is a decentralized, Ethereum scaling platform that aims to provide Ethereum-based projects with increased flexibility. Polygon is a decentralized, Ethereum scaling platform that aims to provide Ethereum-based projects with increased flexibility</p>
+                                      </div>
+                                    </div>
+                                </li>
+                            </ol>
                         </div>
                     </div>
                 </div>
             </section>
-            <!--== End Login Wrapper ==-->
-
+            <!--== End Product Categories Area Wrapper ==-->
             <!--== Start News Letter Area Wrapper ==-->
              <section class="news-letter-area section-bottom-space">
                 <div class="container">
@@ -553,7 +564,7 @@
             <div class="footer-bottom">
                 <div class="container pt-0 pb-0">
                     <div class="footer-bottom-content">
-                        <a href="shop.html"><img src="assets/images/shop/payment.png" alt="Image-HasTech"></a>
+                        <a href="products.html"><img src="assets/images/shop/payment.png" alt="Image-HasTech"></a>
                         <p class="copyright">© 2021 WWM. Made with <i class="fa fa-heart"></i> by <a target="_blank" href="#">Charotar IT Solutions.</a></p>
                     </div>
                 </div>
@@ -577,20 +588,20 @@
                                     <div class="single-product-slider">
                                         <div class="single-product-thumb">
                                             <div class="swiper single-product-quick-view-slider">
-                                                <div class="swiper-wrapper">
+                                                 <div class="swiper-wrapper">
                                                     <div class="swiper-slide">
                                                         <div class="thumb-item">
-                                                            <img src="assets/images/shop/details/m1.jpg" alt="Image" width="640" height="710">
+                                                            <img src="assets/images/shop/details/pt2.png" alt="Image" width="640" height="710">
                                                         </div>
                                                     </div>
                                                     <div class="swiper-slide">
                                                         <div class="thumb-item">
-                                                            <img src="assets/images/shop/details/m2.jpg" alt="Image" width="640" height="710">
+                                                            <img src="assets/images/shop/details/pt4.png" alt="Image" width="640" height="710">
                                                         </div>
                                                     </div>
                                                     <div class="swiper-slide">
                                                         <div class="thumb-item">
-                                                            <img src="assets/images/shop/details/m3.jpg" alt="Image" width="640" height="710">
+                                                            <img src="assets/images/shop/details/pt6.png" alt="Image" width="640" height="710">
                                                         </div>
                                                     </div>
                                                 </div>
@@ -603,7 +614,7 @@
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="product-details-content pt-3">
-                                        <h3 class="product-details-title">Casual Women pants</h3>
+                                        <h3 class="product-details-title">Rolex Watch</h3>
                                         <div class="product-details-review">
                                             <div class="product-review-icon">
                                                 <i class="fa fa-star"></i>
@@ -829,7 +840,7 @@
                                 <ul>
                                     <li><a href="javascript:void(0)">Shop Layout</a>
                                         <ul>
-                                            <li><a href="shop.html">Shop 3 Column</a></li>
+                                            <li><a href="products.html">Shop 3 Column</a></li>
                                             <li><a href="shop-four-columns.html">Shop 4 Column</a></li>
                                             <li><a href="shop-left-sidebar.html">Shop Left Sidebar</a></li>
                                             <li><a href="shop-right-sidebar.html">Shop Right Sidebar</a></li>
@@ -896,9 +907,17 @@
     <script src="assets/js/plugins/swiper-bundle.min.js"></script>
     <script src="assets/js/plugins/fancybox.min.js"></script>
     <script src="assets/js/plugins/jquery.nice-select.min.js"></script>
+    <script src="assets/js/plugins/range-slider.js"></script>
 
     <!-- Custom Main JS -->
     <script src="assets/js/main.js"></script>
+
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $("#tabs").tabs();
+      });
+
+    </script>
 
 </body>
 </html>
