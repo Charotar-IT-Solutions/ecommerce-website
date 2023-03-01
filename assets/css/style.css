@@ -25,6 +25,42 @@
 /*  01. Template default CSS
 /*----------------------------------------*/
 /* Common Style */
+
+@font-face {
+  font-family: digital-7;
+  src: url(../fonts/custome-fonts/digital-7/digital-7.ttf);
+}
+
+@font-face {
+  font-family: digital-deam;
+  src: url(../fonts/custome-fonts/digital-deam/DIGITALDREAM.ttf);
+}
+
+@font-face {
+  font-family: gunmetl;
+  src: url(../fonts/custome-fonts/gunmetal/gunmetl.ttf);
+}
+
+@font-face {
+  font-family: Neon-Future;
+  src: url(../fonts/custome-fonts/neon-future-2-0/Neon Future 2.0 Demo.ttf);
+}
+
+@font-face {
+  font-family: ninepin;
+  src: url(../fonts/custome-fonts/ninepin/ninepin.ttf);
+}
+
+.wwm-logo-text{
+/*  font-family: ninepin;*/
+/*  font-family: Neon-Future;*/
+  font-family: gunmetl;
+  font-size: 36px;
+  letter-spacing: 3px;
+  font-weight: 900;
+  vertical-align: -webkit-baseline-middle;
+}
+
 *, *::after, *::before {
   box-sizing: border-box;
 }
@@ -337,7 +373,7 @@ hr {
     letter-spacing: 0.5px;
     padding: 9px 17px;
   }
-  .wwm-text{
+  .wwm-logo-text{
     display: none;
   }
 }
@@ -9022,9 +9058,9 @@ textarea, input {
     font-weight: 400;
     line-height: 1.75;
     color: #ffffff;
-    background-color: #000;
+    background-color: #010d1d;
     background-clip: padding-box;
-    border: 1px solid #000000;
+    border: 1px solid #2196F3;
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
@@ -9040,4 +9076,15 @@ textarea, input {
     box-shadow: 0 0 0 0.25rem rgb(255 152 0 / 29%);
 }
 
+.form-check-input:checked {
+    background-color: #2196F3;
+    border-color: #2196F3;
+}
+
+
+.form-check-input:focus {
+    border-color: #2196F3;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgb(255 90 90 / 25%);
+}
 /*=================Customize page css=================*/
