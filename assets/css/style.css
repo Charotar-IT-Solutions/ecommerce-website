@@ -9087,4 +9087,13 @@ textarea, input {
     outline: 0;
     box-shadow: 0 0 0 0.25rem rgb(255 90 90 / 25%);
 }
+
+.wwm-main-model .wwm-sub-model{
+    text-align: center;
+    border: 1px solid #ff98004a;
+    margin: 5px;
+    cursor: pointer;
+    padding: 10px;
+}
+
 /*=================Customize page css=================*/
