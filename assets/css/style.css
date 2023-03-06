@@ -2211,6 +2211,18 @@ textarea, input {
   position: relative;
   z-index: 1;
 }
+
+.slider-ovarlay-text{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.wwm-logo-text-overlay{
+  font-size: 22px;
+  color: #2196F3;
+}
+
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .hero-slide-item {
     height: 600px !important;
