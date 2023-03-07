@@ -2221,6 +2221,7 @@ textarea, input {
 .wwm-logo-text-overlay{
   font-size: 12px;
   color: #ffffff;
+  opacity: .7;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
